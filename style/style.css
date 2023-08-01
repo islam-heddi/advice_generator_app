@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:ital,wght@1,600&family=Plus+Jakarta+Sans&family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+*{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 15px;
+    color: greenyellow;
+    letter-spacing: 10px;
+}
+
+#dice img{
+    margin: 0px;
+}
+
+#dice{
+    cursor: pointer;
+    height: auto;
+    width: 30px;
+    padding: 10px;
+    background-color: greenyellow;
+    align-self: center;
+    border-radius: 50%;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+a{
+    color: greenyellow;
+}
+
+.mobile{
+    display: none;
+}
+
+#dice:hover{
+    -webkit-box-shadow: -2px 2px 20px 3px rgba(107,255,109,0.41); 
+    box-shadow: -2px 2px 20px 3px rgba(107,255,109,0.41);
+}
+
+#advice{
+    font-size: 28px;
+}
+
+p{
+    font-size: 28px;
+}
+
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: hsl(217, 19%, 24%);
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+}
